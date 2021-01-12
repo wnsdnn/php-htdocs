@@ -24,12 +24,11 @@
             if($row['pw']==$pw){
                     $_SESSION['userid']=$id;
                     if(isset($_SESSION['userid'])){
-                    ?>      <script>
-                                    alert("로그인 되었습니다.");
-                                    location.replace("./index.php");
-                            </script>
-<?php
-                    }
+                ?>      <script>
+                                alert("로그인 되었습니다.");
+                                location.replace("./index.php");
+                        </script>
+<?php                }
                     else{
                             echo "session fail";
                     }
