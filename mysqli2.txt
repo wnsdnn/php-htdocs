@@ -1,0 +1,31 @@
+show databases;
+
+use board;
+
+drop table board;
+
+create table board(
+	number int unsigned not null primary key auto_increment,
+    title varchar(150) not null,
+    content text not null,
+    id varchar(20) not null,
+    password varchar(20) not null,
+    date datetime not null,
+    hit int unsigned not null default 0
+);
+
+show tables;
+
+desc member;
+
+drop table member;
+
+create table member(
+ id varchar(16) primary key,
+ pw varchar(20),
+ email varchar(100),
+ date datetime,
+ permit tinyint
+ );
+ 
+ select * from board;
