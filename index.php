@@ -83,7 +83,7 @@ echo "안녕하십니까?";
     <a href = "view.php?number=<?php echo $rows['number']?>">
     <?php echo $rows['title']?></td>
       <td width = "100" align = "center"><?php echo $rows['id']?></td>
-    <td width = "200" align = "center"><?php echo $rows['data']?></td>
+    <td width = "200" align = "center"><?php echo $rows['date']?></td>
     <td width = "50" align = "center"><?php echo $rows['hit']?></td>
     </tr>
 <?php
