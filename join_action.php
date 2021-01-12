@@ -1,6 +1,6 @@
 <?php
 
-    $connect = mysqli_connect("localhost","root","","board") or die ("fail");
+    $connect = mysqli_connect("localhost","root","","board") or die ("dbfail");
 
     $id=$_GET['id'];
     $pw=$_GET['pw'];
