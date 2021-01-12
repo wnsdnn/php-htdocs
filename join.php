@@ -6,7 +6,7 @@
 </head>
 <body>
     <div align="center">
-        <p>회원가입</p>
+        <p>회원가입</p> 
             <form action="join_action.php" method="get">
                 <p>ID: <input type="text" name="id"></p>
                 <p>PW: <input type="passwrod" name="pw"></p>
