@@ -1,0 +1,40 @@
+create database board;
+
+use board;
+
+show tables;
+
+create table member(
+	id varchar(16) primary key,
+    pw varchar(20),
+    email varchar(100),
+    data decimal,
+    permit tinyint
+);
+
+show tables;
+
+desc member;
+
+create table board(
+	number int primary key,
+    title varchar(150),
+    content text,
+    id varchar(16),
+    password varchar(20),
+    data decimal,
+    hit int
+); 
+
+show tables;
+desc board;
+
+select * from board order by number desc;
+
+insert into board(number, title, content, id, password, data, hit) values (1, 'a', 'a', 'a', 'a', 20200111, 1);
+
+select * from board;
+
+desc member;
+
+INSERT INTO member(id,pw,date) VALUES ('a','a',20200111);
