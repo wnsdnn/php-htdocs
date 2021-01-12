@@ -5,7 +5,7 @@
     $id=$_GET['id'];
     $pw=$_GET['pw'];
     $email=$_GET['email'];
-
+ 
     $date = date('Y-m-d H:i:s');
 
     //입력받은 데이터를 DB에 저장
