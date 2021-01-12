@@ -7,5 +7,5 @@
     history.back();
 </script>
 <?php
-    }
+    } 
 ?>
